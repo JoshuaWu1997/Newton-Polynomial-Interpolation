@@ -8,5 +8,4 @@ An optimisation of algorithms to calculate newton polynomial interpolation
 2. coef.cpp: an implementation of the coefficient tree
 3. NEWTON.cpp: interface
 
-The complexity of the nth interpolation is O(n). The device of such data structure theoretically reduces time consuming on C++ array indexing. The complexity of memory reference is approximately O(2n) instead of O(n(n-1)/2). Additionally, it is convenient for internal storage.
-
+The complexity of the nth interpolation is O(n). The device of such data structure theoretically reduces time consuming on C++ array indexing. The complexity of memory reference is approximately O(2n) instead of O(n(n-1)/2). Additionally, it is convenient for internal storage. Practical experiment is intended.
